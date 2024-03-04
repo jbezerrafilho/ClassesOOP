@@ -5,6 +5,8 @@ public class Main {
 //      O método `describeCar()` irá imprimir os valores default dos atributos
 //      do objeto
         car.describeCar();
+        System.out.println("make = " + car.getMake());
+        System.out.println("model = "+ car.getModel());
 
     }
 }
